@@ -99,4 +99,5 @@ Os manifestos em `scripts` são registros locais de integridade e não precisam 
 
 Para publicação estática futura, envie somente `index.html`, `identidade.html`, `css`, `js`, `ASSETS` e `FONTS`. Nenhuma publicação foi realizada nesta implementação local.
 #   a l e x b r a n d o w  
+ #   a l e x b r a n d o w  
  
