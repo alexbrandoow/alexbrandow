@@ -1,0 +1,15 @@
+{
+  "name": "alex-brandow-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "catalog": "node scripts/render-portfolio.mjs",
+    "intro": "node scripts/render-intro.mjs",
+    "test": "node --check js/main.js && node --check js/contact.js && node --check js/studio3d.js && node --check js/scrollbar.js && node --check js/accordion-gallery.js && node scripts/verify.mjs && node scripts/render-portfolio.mjs --check && node scripts/render-intro.mjs --check && node --test scripts/portfolio.test.mjs scripts/studio3d.test.mjs scripts/scrollbar.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3",
+    "opentype.js": "^1.3.4"
+  }
+}
